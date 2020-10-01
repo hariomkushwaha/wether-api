@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h3 {
+  margin: 0;
+  cursor: pointer;
+}
+.navbar {
+  font-size: 1.4rem;
+  color: #fefefe;
+  padding: 1rem 3rem;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+.container {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  height: 90vh;
+  border-radius: 15px 15px 30px 30px;
+  width: 60%;
+  margin: 5% auto;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.header-title {
+  font-size: 1.6rem;
+  color: #fefefe;
+}
+input {
+  position: relative;
+  width: 90%;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  text-transform: capitalize;
+  outline-style: none;
+  border: 0.5px solid black;
+}
+.btn {
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  margin-top: 2%;
+  width: 40%;
+  border-radius: 15px;
+  outline-style: none;
+  border: 0.5px solid #0072ff;
+  background-color: #0072ff;
+  color: #fefefe;
+}
+.btn:hover {
+  background-color: #fefefe;
+  color: #0072ff;
+  transition: all 0.3s ease;
+}
+
+.form {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
